@@ -1,0 +1,13 @@
+# prevent directory listings
+Options -Indexes
+IndexIgnore */*
+
+# follow symbolic links
+Options FollowSymlinks
+RewriteEngine on
+RewriteRule ^administrator(.+)?$ backend/web/$1 [L,PT]
+RewriteRule ^(.+)?$ frontend/web/$1
+
+# Inti dari kode diatas adalah melakukan penulisan kembali (rewrite)
+# url dengan mengarahkan request apapun ke frontend/web/ kecuali
+# request administrator, yang mana akan diarahkan ke backend/web/
