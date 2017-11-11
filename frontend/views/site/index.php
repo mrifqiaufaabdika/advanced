@@ -1,15 +1,15 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'My Yii Application';
+$this->title = 'Ruttob';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Assalamualikum Akhi!!</h1>
+        <h1>Assalamualikum !!</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead">Anda berhasil membuat aplikasi YII 2 Advanced pertama anda.</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Memulai dengan YII</a></p>
     </div>
 
     <div class="body-content">

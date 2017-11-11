@@ -5,7 +5,7 @@ IndexIgnore */*
 # follow symbolic links
 Options FollowSymlinks
 RewriteEngine on
-RewriteRule ^administrator(.+)?$ backend/web/$1 [L,PT]
+RewriteRule ^test(.+)?$ backend/web/$1 [L,PT]
 RewriteRule ^(.+)?$ frontend/web/$1
 
 # Inti dari kode diatas adalah melakukan penulisan kembali (rewrite)
